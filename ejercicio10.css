@@ -1,0 +1,9 @@
+.contenedor :empty{
+    display:none;
+
+}
+
+.contenedor:not(:empty){
+    padding: 10px;
+    border: 2px solid;
+}

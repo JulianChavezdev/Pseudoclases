@@ -1,0 +1,17 @@
+button{
+    background-color: aqua;
+}
+
+button:hover{
+    background-color: white;
+    transform: translateY(2px) ;
+}
+
+button:active{
+    transform: translatey(5px);
+}
+
+button:disabled:hover{
+    background-color: grey;
+    transform: none;
+}
