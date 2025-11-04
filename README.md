@@ -149,4 +149,10 @@ Crea estilos donde:
 - Los divs vacíos se oculten automáticamente
 - Los divs con contenido tengan padding y borde
 
+
 ```html
+<div class="contenedor"></div>
+<div class="contenedor">Este tiene contenido</div>
+<div class="contenedor"></div>
+<div class="contenedor">Este también</div>
+```
